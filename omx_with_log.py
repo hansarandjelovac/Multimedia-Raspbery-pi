@@ -42,7 +42,7 @@ def omx():
     
 
 while True:
-    os.system('omxplayer -o hdmi --loop /home/pi/video.mp4 &')
+    #os.system('omxplayer -o hdmi --loop /home/pi/video.mp4 &')
     omx()
     time.sleep(6)
     
